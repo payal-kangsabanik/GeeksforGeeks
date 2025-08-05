@@ -1,0 +1,8 @@
+class Solution:
+    def isVowel (ob,c):
+        # code here
+        v=['a','e','i','o','u','A','E','I','O','U']
+        if c in v:
+            return 'YES'
+        else:
+            return 'NO'
