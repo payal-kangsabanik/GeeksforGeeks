@@ -1,0 +1,7 @@
+
+class Solution:
+    def nthTermOfAP(self, a1 : int, a2 : int, n : int) -> int:
+        
+        diff=(a2-a1)
+        ap_series=a1+(n-1)*diff
+        return ap_series
